@@ -1,4 +1,4 @@
-# Lab: AI + JUnit + Git Iteration (NumberProgram)
+# Lab: AI + JUnit + Git Iteration 
 
 ## Objective
 
@@ -45,7 +45,7 @@ In IntelliJ:
 3. Select “Share Project on GitHub”
 4. Create repository named:
 
-NumberProgramLab
+cmsc115_unit8_lab2
 
 5. Push project to GitHub
 
@@ -91,6 +91,8 @@ Run JUnit tests and record results.
 ---
 
 ## Step 4: Update reflection.md
+Enter the URL for your GitHub Unit 8 Lab 2 repo at the top of the file.
+
 Complete the Iteration 1 section:
 - What the AI code does
 - Which tests passed or failed
@@ -182,7 +184,7 @@ Iteration 3: final version passing all tests
 
 # Submission Requirements
 
-Submit your GitHub repository URL.
+Ensure your reflection.md file contains your GitHub repository URL.
 
 Your repository must include:
 - NumberProgram.java
@@ -195,34 +197,6 @@ Your repository must include:
     - Iteration 3
 
 All JUnit tests must pass in the final version.
-
----
-
-# Grading Rubric (100 points)
-
-## 1. Git and Version Control (20 pts)
-- 4 commits present (5 pts each)
-- Clear commit messages
-- Proper progression of changes
-
-## 2. JUnit Testing (20 pts)
-- Tests run successfully
-- Final version passes all tests
-- Correct interpretation of test failures
-
-## 3. Code Quality (20 pts)
-- Correct implementation of findResult
-- Proper handling of array logic
-- Clean and readable structure
-
-## 4. Iterative Improvement (20 pts)
-- Clear progression from AI-generated code to final solution
-- Evidence of debugging and refinement across iterations
-
-## 5. Reflection Quality (20 pts)
-- reflection.md completed for all iterations
-- Thoughtful explanation of AI behavior
-- Clear understanding of testing and iteration process
 
 ---
 
