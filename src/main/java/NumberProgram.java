@@ -9,6 +9,6 @@ public class NumberProgram {
     }
 
     public static int findResult(int[] values) {
-       return 0;
+        return 0;
     }
 }
