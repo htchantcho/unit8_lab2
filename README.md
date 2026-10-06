@@ -23,18 +23,18 @@ Commit message:
 ---
 
 ## Iteration 2
-
 What changed:
--
+- The method now finds the largest number in the array instead of adding the numbers together.
 
 What improved:
--
+- 3 of 4 tests now pass: testBasicArray, testNegativeNumbers, and testSingleValue. The negative numbers test works because the code starts with the first element of the array instead of 0.
 
 What still failed and why:
--
+- testEmptyArray failed with "ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0." The code reads values[0] before checking whether the array has any elements, and an empty array has no index 0.
 
 Commit message:
--
+- Iteration 2: largest value implementation
+
 
 ---
 

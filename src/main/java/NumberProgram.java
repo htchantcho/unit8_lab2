@@ -1,19 +1,20 @@
 public class NumberProgram {
-    public class NumberProgram {
 
-        /**
-         * Calculates the sum of all values in the array.
-         *
-         * @param values the array of integers
-         * @return the sum of all elements, or 0 if the array is empty
-         */
-        public static int findResult(int[] values) {
-            int sum = 0;
+    /**
+     * Returns the largest integer in the array.
+     *
+     * @param values the array of integers
+     * @return the largest value in the array
+     */
+    public static int findResult(int[] values) {
+        int max = values[0];
 
-            for (int value : values) {
-                sum += value;
+        for (int i = 1; i < values.length; i++) {
+            if (values[i] > max) {
+                max = values[i];
             }
-
-            return sum;
         }
+
+        return max;
     }
+}
