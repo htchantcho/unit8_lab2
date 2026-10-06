@@ -41,21 +41,26 @@ Commit message:
 ## Iteration 3
 
 Final behavior:
--
+- The method returns the largest number in the array. If the array is empty, it returns Integer.MIN_VALUE.
 
 What was fixed:
--
+- I added a check at the start of the method. If the array is empty, it returns Integer.MIN_VALUE right away, so the code never tries to read values[0]. All 4 tests now pass.
 
 What you learned:
--
+- AI output is only as good as the prompt. A vague prompt got a wrong guess, and each clearer prompt got closer to the right answer. I also learned to always handle empty input, because that's where the crash happened.
 
 Commit message:
--
+- Iteration 3: final version passing all tests
 
 ---
 
 ## Final Reflection
 
 - How did AI responses change across prompts?
+  The first prompt was vague, so the AI guessed and returned the sum. The second prompt said exactly what to return, so the AI found the largest value. The third prompt covered the empty-array case, which fixed the last failing test. Each more specific prompt produced more accurate code.
+
 - How did testing affect your changes?
+  The JUnit tests showed exactly which inputs gave wrong answers and what the correct answers should be. Instead of assuming the AI code was right, I could see the problems, like the wrong totals in Iteration 1 and the crash on the empty array in Iteration 2, and fix them one at a time.
+
 - What did version control help you understand?
+  Each Git commit saved one version of the code, so I can see how the program improved from one iteration to the next. If a change had broken something, I could have gone back to an earlier commit. It also gives a clear record of my work.
