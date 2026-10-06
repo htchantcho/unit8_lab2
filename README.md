@@ -1,15 +1,15 @@
 # Reflection – AI Number Program Lab
 
 ##  Student Name:
-(Enter your name here)
+Herve Tchantcho
 
 ##  GitHub Repository Link:
-(Insert your repository URL here)
+https://github.com/htchantcho/unit8_lab2.git
 
 ## Iteration 1
 
 What the AI code does:
--
+- 
 
 Tests passed/failed:
 -
