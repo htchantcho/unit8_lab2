@@ -1,14 +1,19 @@
 public class NumberProgram {
+    public class NumberProgram {
 
-    public static void main(String[] args) {
-        int[] values = {3, 7, 2, 9, 4};
+        /**
+         * Calculates the sum of all values in the array.
+         *
+         * @param values the array of integers
+         * @return the sum of all elements, or 0 if the array is empty
+         */
+        public static int findResult(int[] values) {
+            int sum = 0;
 
-        int result = findResult(values);
+            for (int value : values) {
+                sum += value;
+            }
 
-        System.out.println("Result: " + result);
+            return sum;
+        }
     }
-
-    public static int findResult(int[] values) {
-        return 0;
-    }
-}
